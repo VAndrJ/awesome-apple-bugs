@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// The button action is not canceled during scrolling in sheet and is executed after scrolling completes.
+/// The button action is not canceled during scrolling in a sheet and is executed after scrolling completes.
 struct ContentView: View {
     @State private var isSheetPresented = false
 

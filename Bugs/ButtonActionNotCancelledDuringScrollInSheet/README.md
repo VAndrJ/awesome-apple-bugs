@@ -1,7 +1,7 @@
 ## Problem
 
 
-The button action is not canceled during scrolling in sheet and is executed after scrolling completes.
+The button action is not canceled during scrolling in a sheet and is executed after scrolling completes.
 
 
 ## Environment
@@ -24,7 +24,7 @@ Build in Xcode 15.4.
 Video showing how it works on iOS 17 and iOS 18.
 
 
-upload video.
+https://github.com/user-attachments/assets/028762ed-958b-485a-9eb8-bc108245a920
 
 
 ## Additions

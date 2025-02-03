@@ -22,7 +22,7 @@ Gesture issue: `.updating` block is not called on `LongPressGesture`.
 ## Demo
 
 
-A video demonstrating how it behaves on iOS 18 and on iOS 17.
+A video demonstrating how it behaves on iOS 18 and iOS 17.
 
 
 https://github.com/user-attachments/assets/d218c595-fcb7-498d-b2d0-39e3d4f007e6
@@ -31,6 +31,6 @@ https://github.com/user-attachments/assets/d218c595-fcb7-498d-b2d0-39e3d4f007e6
 ## Additions
 
 
-Known issue. Shoul be fixed in future releases [FB16430342](https://feedbackassistant.apple.com/feedback/16430342)
+Known issue. It should be fixed in future releases [FB16108378](https://feedbackassistant.apple.com/feedback/16108378)
 
 

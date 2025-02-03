@@ -30,5 +30,5 @@ https://github.com/user-attachments/assets/028762ed-958b-485a-9eb8-bc108245a920
 ## Additions
 
 
-This is most likely related to other gesture issues that were introduced in Xcode 16+iOS 18.
+This is most likely related to other gesture issues introduced in Xcode 16+iOS 18.
 

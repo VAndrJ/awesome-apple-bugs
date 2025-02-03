@@ -14,7 +14,7 @@ Compilation error if `Observable` class name is `Member`.
 ## Solution / Workaround
 
 
-- Use different name.
+- Use a different name.
 - Add own `access` and `withMutation` functions.
 
 

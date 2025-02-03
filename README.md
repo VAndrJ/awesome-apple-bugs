@@ -22,6 +22,9 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 ## UI Frameworks
 
 
+- [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/README.md) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
+
+
 ### SwiftUI
 
 
@@ -35,6 +38,9 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 
 
 ### iOS
+
+
+- [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/README.md) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
 
 
 ### iPadOS

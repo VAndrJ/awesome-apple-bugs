@@ -21,7 +21,7 @@ Use array-based navigation path.
 ## Demo
 
 
-A video demonstrating how it behaves on iOS 16 and on iOS 17.
+A video demonstrating how it behaves on iOS 16 and iOS 17.
 
 
 https://github.com/user-attachments/assets/0b98cf13-89b6-4200-8707-13f087c50684
@@ -30,6 +30,6 @@ https://github.com/user-attachments/assets/0b98cf13-89b6-4200-8707-13f087c50684
 ## Additions
 
 
-One of the many problems with `NavigationStack`.
-
+One of the many problems with `NavigationStack`:
+- [NavigationStack issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationStackIssuePathClearActiveSearchable/README.md): popping back programmatically doesn't work when using `.navigationDestination(isPresented:)`.
 

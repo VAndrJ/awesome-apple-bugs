@@ -1,7 +1,7 @@
 ## Problem
 
 
-Crash occurs when using a typed throws in a closure variable within an `ObservableObject`.
+Crash occurs when using typed throws in a closure variable within an `ObservableObject`.
 
 
 ## Environment

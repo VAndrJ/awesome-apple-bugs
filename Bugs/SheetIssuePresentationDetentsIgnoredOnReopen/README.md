@@ -24,7 +24,7 @@ Allow `.sheet` to be presented again only after a short delay.
 A video demonstrating how it behaves on iOS 18.
 
 
-upload video.
+https://github.com/user-attachments/assets/9b27c669-5038-4b6d-8d27-39ca18de218d
 
 
 ## Additions

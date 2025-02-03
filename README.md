@@ -32,6 +32,9 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 ### UIKit
 
 
+- [Life cycle](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/LifeCyclePushedViewController/README.md) of controllers when the new one is immediately pushed with `animation: true`.
+
+
 ## Swift
 
 

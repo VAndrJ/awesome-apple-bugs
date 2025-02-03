@@ -24,7 +24,7 @@ Using capture list.
 A video demonstrating how it behaves on iOS 17.2 without a memory leak and on iOS 18.2 with a memory leak.
 
 
-upload video.
+https://github.com/user-attachments/assets/56ebfc9c-8afc-43be-8f7b-cf8699219853
 
 
 ## Additions

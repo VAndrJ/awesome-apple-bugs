@@ -22,16 +22,19 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 ## UI Frameworks
 
 
-- [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/README.md) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
-
-
 ### SwiftUI
+
+
+- [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/README.md) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
 
 
 ### UIKit
 
 
 ## Swift
+
+
+- [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/README.md) occurs when using a typed throws in a closure variable within an `ObservableObject`.
 
 
 ## OS
@@ -41,9 +44,13 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 
 
 - [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/README.md) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
+- [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/README.md) occurs when using a typed throws in a closure variable within an `ObservableObject`.
 
 
 ### iPadOS
+
+
+- [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/README.md) occurs when using a typed throws in a closure variable within an `ObservableObject`.
 
 
 ### macOS
@@ -52,7 +59,13 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 ### watchOS
 
 
+- [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/README.md) occurs when using a typed throws in a closure variable within an `ObservableObject`.
+
+
 ### visionOS
+
+
+- [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/README.md) occurs when using a typed throws in a closure variable within an `ObservableObject`.
 
 
 ## Contributing

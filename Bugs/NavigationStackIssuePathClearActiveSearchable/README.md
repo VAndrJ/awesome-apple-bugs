@@ -24,7 +24,7 @@ Use the `.searchable(text:isPresented:)` modifier and set `isPresented` variable
 A video demonstrating how it behaves on iOS 17 and on iOS 18.
 
 
-upload video.
+https://github.com/user-attachments/assets/9d89f6c4-20c1-4d19-a02b-0acb03866d7e
 
 
 ## Additions

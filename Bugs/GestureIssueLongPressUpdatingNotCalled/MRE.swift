@@ -1,6 +1,5 @@
 //
-//  ContentView.swift
-//  MRE
+//  MRE.swift
 //
 //  Created by VAndrJ on 2/3/25.
 //

@@ -29,13 +29,14 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 
 
 - [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/README.md) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
-- [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 - [Button action](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ButtonActionNotCancelledDuringScrollInSheet/README.md) is not canceled during scrolling in a sheet and is executed after scrolling completes.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/README.md): `.updating` block is not called on `LongPressGesture`.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/README.md): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
 - [NavigationStack issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationStackIssuePoppingBackIsPresented/README.md): popping back programmatically doesn't work when using `.navigationDestination(isPresented:)`.
 - [NavigationStack issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationStackIssuePathClearActiveSearchable/README.md): when clearing a path, it does not go back if there was a transition with an active `.searchable`.
 - [Sheet issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SheetIssuePresentationDetentsIgnoredOnReopen/README.md): `.presentationDetents` is ignored if the sheet is reopened after a short period.
+- [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
+- [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 
 
 ### UIKit
@@ -85,6 +86,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashNotificationCenterClosureSwift6/README.md) in Swift 6 language mode when using the closure-based version of the `UNUserNotificationCenter.requestAuthorization` function.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/README.md): `.updating` block is not called on `LongPressGesture`.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/README.md): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
+- [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
 
 
 ### macOS
@@ -239,6 +241,18 @@ https://github.com/user-attachments/assets/165ddf0c-74f9-4022-9a36-494f1a13adf5
 
 
 ![example](https://raw.githubusercontent.com/VAndrJ/awesome-apple-bugs/master/Bugs/CompilationErrorPassingFunctionAsAnArgument/Resources/error.jpeg)
+
+
+---
+
+
+### [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
+
+
+A video demonstrating how it behaves on iOS 18.
+
+
+upload video.
 
 
 ---

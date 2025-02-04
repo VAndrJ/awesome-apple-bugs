@@ -8,7 +8,8 @@ Gesture issue: `.updating` block is not called on `LongPressGesture`.
 
 
 - Xcode 16.0-16.2 (current; check on future versions).
-- iOS 18.0-18.2 (current; check on future versions).
+- iOS 18.0-18.3 (current; check on future versions).
+- iPadOS 18.0-18.3 (current; check on future versions).
 - Swift 5/6.
 
 

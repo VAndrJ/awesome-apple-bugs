@@ -24,10 +24,10 @@ Gesture issue: when `DragGesture` is added as a `.highPriorityGesture` to a `Lis
 ## Demo
 
 
-A video demonstrating how it behaves on iOS 18.
+A video demonstrating how it behaves on iOS 17 and iOS 18.
 
 
-upload video.
+https://github.com/user-attachments/assets/53d8ad16-e00b-467d-8ecd-b7ff1dcee5c2
 
 
 ## Additions

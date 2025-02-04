@@ -139,10 +139,10 @@ https://github.com/user-attachments/assets/d218c595-fcb7-498d-b2d0-39e3d4f007e6
 ### [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/README.md): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
 
 
-A video demonstrating how it behaves on iOS 18.
+A video demonstrating how it behaves on iOS 17 and iOS 18.
 
 
-upload video.
+https://github.com/user-attachments/assets/53d8ad16-e00b-467d-8ecd-b7ff1dcee5c2
 
 
 ---

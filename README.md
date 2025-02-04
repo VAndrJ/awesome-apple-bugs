@@ -43,6 +43,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 
 
 - [Life cycle](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/LifeCyclePushedViewController/README.md) of controllers when the new one is immediately pushed with `animation: true`.
+- [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
 ## Swift
@@ -77,6 +78,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [NavigationStack issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationStackIssuePathClearActiveSearchable/README.md): when clearing a path, it does not go back if there was a transition with an active `.searchable`.
 - [Sheet issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SheetIssuePresentationDetentsIgnoredOnReopen/README.md): `.presentationDetents` is ignored if the sheet is reopened after a short period.
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
+- [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
 ### iPadOS
@@ -87,6 +89,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/README.md): `.updating` block is not called on `LongPressGesture`.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/README.md): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
 - [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
+- [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
 ### macOS
@@ -265,6 +268,19 @@ A video showing how it works on iOS 18.0.
 
 
 https://github.com/user-attachments/assets/c4c8cdb1-4539-44e1-8069-e52e61b95f34
+
+
+---
+
+
+### [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
+
+
+Comparison images on iOS 18 and earlier storyboard/code.
+
+
+![storyboard](https://raw.githubusercontent.com/VAndrJ/awesome-apple-bugs/master/Bugs/NavigationTitleQuotationMarksWhitespace/Resources/storyboard.jpeg)
+![code](https://raw.githubusercontent.com/VAndrJ/awesome-apple-bugs/master/Bugs/NavigationTitleQuotationMarksWhitespace/Resources/code.jpeg)
 
 
 ---

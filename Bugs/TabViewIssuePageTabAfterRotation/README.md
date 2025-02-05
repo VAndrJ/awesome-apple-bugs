@@ -25,7 +25,7 @@ No solution. Only ugly hacks like changing selection after rotation with delay.
 A video demonstrating how it behaves on iOS 15.
 
 
-upload video.
+https://github.com/user-attachments/assets/3f399638-ee14-40df-9d39-42848cf601fb
 
 
 ## Additions

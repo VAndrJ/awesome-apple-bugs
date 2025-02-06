@@ -63,6 +63,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Compilation error](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CompilationErrorPassingFunctionAsAnArgument/README.md) when passing a function isolated to an actor as an argument.
 - [Entry macro issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/EntryMacroComputedProperty/README.md): generated variable `defaultValue` is computed property if variable type is explicitly specified.
 
+
 ## OS
 
 

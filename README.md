@@ -17,6 +17,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
   - [iPadOS](#ipados)
   - [macOS](#macos)
   - [watchOS](#watchos)
+  - [tvOS](#tvos)
   - [visionOS](#visionos)
 - [Overview](#overview)
 - [Contributing](#contributing)
@@ -37,6 +38,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Sheet issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SheetIssuePresentationDetentsIgnoredOnReopen/README.md): `.presentationDetents` is ignored if the sheet is reopened after a short period.
 - [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/README.md): wrong tab displayed after rotation when using `.page` style.
+- [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 
 
@@ -80,6 +82,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [NavigationStack issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationStackIssuePathClearActiveSearchable/README.md): when clearing a path, it does not go back if there was a transition with an active `.searchable`.
 - [Sheet issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SheetIssuePresentationDetentsIgnoredOnReopen/README.md): `.presentationDetents` is ignored if the sheet is reopened after a short period.
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/README.md): wrong tab displayed after rotation when using `.page` style.
+- [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
@@ -93,22 +96,34 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/README.md): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
 - [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/README.md): wrong tab displayed after rotation when using `.page` style.
+- [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
 ### macOS
 
 
+- [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
+
+
 ### watchOS
 
 
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/README.md) occurs when using a typed throws in a closure variable within an `ObservableObject`.
+- [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
+
+
+### tvOS
+
+
+- [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
 
 
 ### visionOS
 
 
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/README.md) occurs when using a typed throws in a closure variable within an `ObservableObject`.
+- [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
 
 
 ## Overview
@@ -284,6 +299,18 @@ A video demonstrating how it behaves on iOS 15.
 
 
 https://github.com/user-attachments/assets/3f399638-ee14-40df-9d39-42848cf601fb
+
+
+---
+
+
+### [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
+
+
+A video demonstrating how it behaves on iPadOS 17.4 and 17.5.
+
+
+upload video
 
 
 ---

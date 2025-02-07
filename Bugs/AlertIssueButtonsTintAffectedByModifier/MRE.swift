@@ -6,7 +6,7 @@
 
 import SwiftUI
 
-/// Alert issue: `.default` and `.cancel` buttons are recolored if they are in a NavigationStack that has tint applied (or higher up the Views tree).
+/// Alert issue: `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 struct ContentView: View {
     @State private var isAlertPresented = false
     @State private var path: [String] = []

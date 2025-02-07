@@ -39,6 +39,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/README.md): wrong tab displayed after rotation when using `.page` style.
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
+- [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if they are in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 
 
@@ -83,6 +84,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Sheet issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SheetIssuePresentationDetentsIgnoredOnReopen/README.md): `.presentationDetents` is ignored if the sheet is reopened after a short period.
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/README.md): wrong tab displayed after rotation when using `.page` style.
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
+- [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if they are in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
@@ -97,6 +99,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/README.md): wrong tab displayed after rotation when using `.page` style.
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
+- [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if they are in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
@@ -311,6 +314,18 @@ A video demonstrating how it behaves on iPadOS 17.4 and 17.5.
 
 
 https://github.com/user-attachments/assets/fab3cc1e-9750-47f7-a697-f84d333cd69d
+
+
+---
+
+
+### [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if they are in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
+
+
+Video showing how it works on iOS 18.1 and iOS 18.2.
+
+
+upload video
 
 
 ---

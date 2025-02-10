@@ -1,7 +1,7 @@
 ## Problem
 
 
-Entry macro issue: generated variable `defaultValue` is computed property if variable type is explicitly specified.
+Entry macro issue: generated variable `defaultValue` is a computed property if the variable type is explicitly specified, but a stored property if the variable type is not specified explicitly.
 
 
 ## Environment

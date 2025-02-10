@@ -25,7 +25,7 @@ Sheets issue: if you have multiple `.sheet`s open, when you restore the state, n
 A video demonstrating how it behaves.
 
 
-upload video.
+https://github.com/user-attachments/assets/c857e7d2-da21-4163-a261-720f471b09a5
 
 
 ## Additions

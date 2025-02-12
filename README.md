@@ -12,6 +12,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
   - [UIKit](#uikit)
 - [Swift](#swift)
 - [Xcode](#xcode)
+- [SwiftData](#swiftdata)
 - [OS](#os)
   - [iOS](#ios)
   - [iPadOS](#ipados)
@@ -68,6 +69,12 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Entry macro issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/EntryMacroComputedProperty/README.md): generated variable `defaultValue` is a computed property if the variable type is explicitly specified, but a stored property if the variable type is not specified explicitly.
 
 
+## SwiftData
+
+
+- [SwiftData crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SwiftDataCrashDefaultTemplate/README.md): deleting the element will result in a crash in the standard template.
+
+
 ## OS
 
 
@@ -101,6 +108,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/README.md): toolbar items disappear after the app goes to the background and then returns to the foreground.
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/README.md): wrong tab displayed after rotation when using `.page` style.
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
+- [SwiftData crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SwiftDataCrashDefaultTemplate/README.md): deleting the element will result in a crash in the standard template.
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
@@ -342,6 +350,18 @@ Video showing how it works on iOS 18.1 and iOS 18.2.
 
 
 https://github.com/user-attachments/assets/ae982f4e-ef68-4544-911a-ea9dbf506ca8
+
+
+---
+
+
+### [SwiftData crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SwiftDataCrashDefaultTemplate/README.md): deleting the element will result in a crash in the standard template.
+
+
+A video demonstrating how it behaves on iPadOS 17.5.
+
+
+upload video.
 
 
 ---

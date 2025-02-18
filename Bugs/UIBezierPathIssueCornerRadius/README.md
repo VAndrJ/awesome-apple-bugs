@@ -25,7 +25,7 @@ UIBezierPath issue: `cornerRadius` is incorrect for `roundedRect` when it exceed
 A video demonstrating how it behaves on iOS 18.
 
 
-upload video.
+https://github.com/user-attachments/assets/0dc54a55-ce53-4576-9094-2a40d6f73f16
 
 
 ## Additions

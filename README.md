@@ -391,7 +391,7 @@ https://github.com/user-attachments/assets/537d8a71-ff94-4c93-a8d6-f37f7d085035
 A video demonstrating how it behaves on iOS 18.
 
 
-upload video.
+https://github.com/user-attachments/assets/0dc54a55-ce53-4576-9094-2a40d6f73f16
 
 
 ---

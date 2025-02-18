@@ -50,6 +50,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 
 
 - [Life cycle](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/LifeCyclePushedViewController/README.md) of controllers when the new one is immediately pushed with `animation: true`.
+- [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/README.md): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
@@ -96,6 +97,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/README.md): the same variable is shared between different scenes.
 - [PhaseAnimator crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PhaseAnimatorCrashOnViewClose/README.md): when closing the presented view or popping the pushed view on which it is (or 100% CPU load iOS 17.0).
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
+- [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/README.md): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
@@ -113,6 +115,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [PhaseAnimator crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PhaseAnimatorCrashOnViewClose/README.md): when closing the presented view or popping the pushed view on which it is (or 100% CPU load iOS 17.0).
 - [SwiftData crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SwiftDataCrashDefaultTemplate/README.md): deleting the element will result in a crash in the standard template.
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
+- [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/README.md): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
@@ -377,6 +380,18 @@ A video demonstrating how it behaves on iPadOS 17.5.
 
 
 https://github.com/user-attachments/assets/537d8a71-ff94-4c93-a8d6-f37f7d085035
+
+
+---
+
+
+- [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/README.md): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
+
+
+A video demonstrating how it behaves on iOS 18.
+
+
+https://github.com/user-attachments/assets/0dc54a55-ce53-4576-9094-2a40d6f73f16
 
 
 ---

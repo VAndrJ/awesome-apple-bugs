@@ -8,7 +8,7 @@ UIBezierPath issue: `cornerRadius` is incorrect for `roundedRect` when it exceed
 
 
 - Xcode 16.
-- iOS 7-18.3.
+- iOS 7-18.3 (current; check on future versions).
 - Swift 5/6.
 
 

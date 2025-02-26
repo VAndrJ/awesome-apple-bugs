@@ -1,7 +1,7 @@
 ## Problem
 
 
-Code completion issue: incorrect completion for `async throws` closures in initializer.
+Code completion issue: incorrect completion for optional closures in initializer.
 
 
 ## Environment
@@ -22,7 +22,7 @@ Update to Xcode 16.3 or newer.
 Video showing how it works in Xcode 16.0.
 
 
-https://github.com/user-attachments/assets/52eb80f0-e26a-4c93-bc76-6dde5ea6b1f0
+https://github.com/user-attachments/assets/6c14f9ae-7651-497d-b3df-d45198d7fa76
 
 
 ## Additions

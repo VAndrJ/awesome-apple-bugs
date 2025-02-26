@@ -70,6 +70,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Compilation error](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CompilationErrorPassingFunctionAsAnArgument/README.md) when passing a function isolated to an actor as an argument.
 - [Entry macro issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/EntryMacroComputedProperty/README.md): generated variable `defaultValue` is a computed property if the variable type is explicitly specified, but a stored property if the variable type is not specified explicitly.
 - [Code completion issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CodeCompletionIssueAsyncThrowsInit/README.md): incorrect completion for `async throws` closures in initializer.
+- [Code completion issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CodeCompletionIssueOptionalEscapingInit/README.md): incorrect completion for optional closures in initializer.
 
 
 ## SwiftData
@@ -423,13 +424,25 @@ Comparison images on iOS 18 and earlier storyboard/code.
 ---
 
 
-- [Code completion issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CodeCompletionIssueAsyncThrowsInit/README.md): incorrect completion for `async throws` closures in initializer.
+### [Code completion issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CodeCompletionIssueAsyncThrowsInit/README.md): incorrect completion for `async throws` closures in initializer.
 
 
 Video showing how it works in Xcode 16.0.
 
 
 https://github.com/user-attachments/assets/52eb80f0-e26a-4c93-bc76-6dde5ea6b1f0
+
+
+---
+
+
+### [Code completion issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CodeCompletionIssueOptionalEscapingInit/README.md): incorrect completion for optional closures in initializer.
+
+
+Video showing how it works in Xcode 16.0.
+
+
+upload video.
 
 
 ---

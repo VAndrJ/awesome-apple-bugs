@@ -69,6 +69,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Compilation error](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CompilationErrorObservableClassNameMember/README.md) if `Observable` class name is `Member`.
 - [Compilation error](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CompilationErrorPassingFunctionAsAnArgument/README.md) when passing a function isolated to an actor as an argument.
 - [Entry macro issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/EntryMacroComputedProperty/README.md): generated variable `defaultValue` is a computed property if the variable type is explicitly specified, but a stored property if the variable type is not specified explicitly.
+- [Code completion issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CodeCompletionIssueAsyncThrowsInit/README.md): incorrect completion for `async throws` closures in initializer.
 
 
 ## SwiftData
@@ -417,6 +418,18 @@ Comparison images on iOS 18 and earlier storyboard/code.
 
 ![storyboard](https://raw.githubusercontent.com/VAndrJ/awesome-apple-bugs/master/Bugs/NavigationTitleQuotationMarksWhitespace/Resources/storyboard.jpeg)
 ![code](https://raw.githubusercontent.com/VAndrJ/awesome-apple-bugs/master/Bugs/NavigationTitleQuotationMarksWhitespace/Resources/code.jpeg)
+
+
+---
+
+
+- [Code completion issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CodeCompletionIssueAsyncThrowsInit/README.md): incorrect completion for `async throws` closures in initializer.
+
+
+Video showing how it works in Xcode 16.0.
+
+
+upload video
 
 
 ---

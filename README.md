@@ -429,7 +429,7 @@ Comparison images on iOS 18 and earlier storyboard/code.
 Video showing how it works in Xcode 16.0.
 
 
-upload video
+https://github.com/user-attachments/assets/52eb80f0-e26a-4c93-bc76-6dde5ea6b1f0
 
 
 ---

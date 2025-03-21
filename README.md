@@ -44,6 +44,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [PhaseAnimator crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PhaseAnimatorCrashOnViewClose/README.md): when closing the presented view or popping the pushed view on which it is (or 100% CPU load iOS 17.0).
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [List issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ListEditButtonOnlyWorksSecondTime/README.md): the edit button only works the second time.
+- [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/README.md): `arrowEdge` value is not respected.
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
 
 
@@ -103,6 +104,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/README.md): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
 - [List issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ListEditButtonOnlyWorksSecondTime/README.md): the edit button only works the second time.
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/README.md) on drag and drop action.
+- [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/README.md): `arrowEdge` value is not respected.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
@@ -121,6 +123,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/README.md): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/README.md): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
 - [List issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ListEditButtonOnlyWorksSecondTime/README.md): the edit button only works the second time.
+- [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/README.md): `arrowEdge` value is not respected.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/README.md) is displayed in quotation marks `" "` if a whitespace is specified as the title.
 
 
@@ -409,6 +412,18 @@ A video showing how it works on iOS 17.0.
 
 
 https://github.com/user-attachments/assets/6efe7d2b-5e4f-4961-bc78-fe2d09d6247f
+
+
+---
+
+
+### [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/README.md): `arrowEdge` value is not respected.
+
+
+A video demonstrating how it behaves on iOS 17.
+
+
+upload video
 
 
 ---

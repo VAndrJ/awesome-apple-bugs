@@ -9,6 +9,7 @@ List issue: the edit button only works the second time.
 
 - Xcode 15/16.
 - iOS 17.0.x.
+- iPadOS 17.0.x.
 - Swift 5/6.
 
 

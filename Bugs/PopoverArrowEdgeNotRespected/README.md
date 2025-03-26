@@ -8,8 +8,8 @@ Popover issue: `arrowEdge` value is not respected
 
 
 - Xcode 15/16.
-- iOS 13-17.x.
-- iPadOS 13-17.x.
+- iOS 13-18.0.
+- iPadOS 13-18.0.
 - Swift 5/6.
 
 

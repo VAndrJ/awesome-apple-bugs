@@ -31,6 +31,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 
 
 - [ForEach crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ForEachCrashOnElementdeletionBindingInit/): when using the `Binding` variant of the init, after the animation of removing the last element has completed.
+- [Popover crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverCrashAfterDeviceRotation/) after going to background and device rotation.
 - [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
 - [Button action](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ButtonActionNotCancelledDuringScrollInSheet/) is not canceled during scrolling in a sheet and is executed after scrolling completes.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/): `.updating` block is not called on `LongPressGesture`.
@@ -92,6 +93,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/) occurs when using a typed throws in a closure variable within an `ObservableObject`.
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashNotificationCenterClosureSwift6/) in Swift 6 language mode when using the closure-based version of the `UNUserNotificationCenter.requestAuthorization` function.
 - [ForEach crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ForEachCrashOnElementdeletionBindingInit/): when using the `Binding` variant of the init, after the animation of removing the last element has completed.
+- [Popover crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverCrashAfterDeviceRotation/) after going to background and device rotation.
 - [Button action](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ButtonActionNotCancelledDuringScrollInSheet/) is not canceled during scrolling in a sheet and is executed after scrolling completes.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/): `.updating` block is not called on `LongPressGesture`.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
@@ -116,6 +118,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/) occurs when using a typed throws in a closure variable within an `ObservableObject`.
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashNotificationCenterClosureSwift6/) in Swift 6 language mode when using the closure-based version of the `UNUserNotificationCenter.requestAuthorization` function.
 - [ForEach crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ForEachCrashOnElementdeletionBindingInit/): when using the `Binding` variant of the init, after the animation of removing the last element has completed.
+- [Popover crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverCrashAfterDeviceRotation/) after going to background and device rotation.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/): `.updating` block is not called on `LongPressGesture`.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
 - [NavigationSplitView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationSplitViewToolbarItemDisappearBackground/): toolbar items disappear after the app goes to the background and then returns to the foreground.
@@ -191,6 +194,18 @@ A video demonstrating how it works on iOS 18.4.
 
 
 https://github.com/user-attachments/assets/3db04e00-7567-4958-a139-c8cfca07752c
+
+
+---
+
+
+### [Popover crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverCrashAfterDeviceRotation/) after going to background and device rotation.
+
+
+A video demonstrating how it works on iOS 18.1.
+
+
+https://github.com/user-attachments/assets/e5136a45-81fe-421b-a420-6f0fd4eb0bac
 
 
 ---

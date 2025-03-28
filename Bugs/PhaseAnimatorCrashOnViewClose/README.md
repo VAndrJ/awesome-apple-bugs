@@ -16,7 +16,7 @@ PhaseAnimator crash: when closing the presented view or popping the pushed view 
 ## Solution / Workaround
 
 
-No solution.
+https://github.com/VAndrJ/awesome-apple-bugs/issues/37
 
 
 ## Demo

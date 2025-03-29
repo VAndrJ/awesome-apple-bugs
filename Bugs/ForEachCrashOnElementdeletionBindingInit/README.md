@@ -16,7 +16,8 @@ ForEach crash: when using the `Binding` variant of the init, after the animation
 ## Solution / Workaround
 
 
-Add a delay. Extremely unreliable, but better than a guaranteed crash.
+- Check for attempt to use binding with empty array and use default value if array is empty.
+- Add a delay. Extremely unreliable, but better than a guaranteed crash.
 
 
 ## Demo

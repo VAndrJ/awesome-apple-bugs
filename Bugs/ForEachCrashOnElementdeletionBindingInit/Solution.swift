@@ -8,7 +8,7 @@ import SwiftUI
 
 /// Example for easy reproduction.
 /// Crash occurs after deleting last element.
-/// Thanks [Vadym K.](https://www.linkedin.com/in/vadym-kharionovskyi/) for solution.
+/// Thanks [Vadym K.](https://www.linkedin.com/in/vadym-kharionovskyi/) for this Workaround:
 struct ContentView: View {
     @State private var items: [ExampleItem] = [
         ExampleItem(isActive: false),
@@ -39,7 +39,32 @@ extension Binding {
     }
 }
 
+
+/// Workaround 1:
 struct ContentView1: View {
+    @State private var items: [ExampleItem] = [
+        ExampleItem(isActive: false),
+    ]
+
+    var body: some View {
+        List {
+            ForEach($items) { $item in
+                Toggle("Delete me", isOn: $item.isActive)
+            }
+            .onDelete { offsets in
+                /// Workaround: prevent the array from ever being empty.
+                items.remove(atOffsets: offsets)
+                if items.isEmpty {
+                    items.append(ExampleItem(isActive: true)) // Expand to use placeholder element instead of item. Handle subsequent addition.
+                }
+            }
+        }
+    }
+}
+
+
+/// Workaround 2:
+struct ContentView2: View {
     @State private var items: [ExampleItem] = [
         ExampleItem(isActive: false),
     ]

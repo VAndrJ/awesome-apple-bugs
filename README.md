@@ -34,6 +34,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Popover crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverCrashAfterDeviceRotation/) after going to background and device rotation.
 - [Memory leak](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/MemoryLeakSearchableRefreshableScrollView/) when applying `.searchable` and `.refreshable` modifiers together on a `ScrollView`.
 - [Button action](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ButtonActionNotCancelledDuringScrollInSheet/) is not canceled during scrolling in a sheet and is executed after scrolling completes.
+- [ScrollViewReader issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ScrollViewReaderEmptyCellsOnScrollTo/) List returns empty cells when scrolling with scrollTo.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/): `.updating` block is not called on `LongPressGesture`.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
 - [NavigationStack issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationStackIssuePoppingBackIsPresented/): popping back programmatically doesn't work when using `.navigationDestination(isPresented:)`.
@@ -95,6 +96,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [ForEach crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ForEachCrashOnElementdeletionBindingInit/): when using the `Binding` variant of the init, after the animation of removing the last element has completed.
 - [Popover crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverCrashAfterDeviceRotation/) after going to background and device rotation.
 - [Button action](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ButtonActionNotCancelledDuringScrollInSheet/) is not canceled during scrolling in a sheet and is executed after scrolling completes.
+- [ScrollViewReader issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ScrollViewReaderEmptyCellsOnScrollTo/) List returns empty cells when scrolling with scrollTo.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueLongPressUpdatingNotCalled/): `.updating` block is not called on `LongPressGesture`.
 - [Gesture issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/GestureIssueHighPriorityToListScrolling/): when `DragGesture` is added as a `.highPriorityGesture` to a `List` or `ScrollView`, scrolling stops working.
 - [NavigationStack issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationStackIssuePoppingBackIsPresented/): popping back programmatically doesn't work when using `.navigationDestination(isPresented:)`.
@@ -229,6 +231,18 @@ A video demonstrating how it behaves on iOS 18 and iOS 17.
 
 
 https://github.com/user-attachments/assets/d218c595-fcb7-498d-b2d0-39e3d4f007e6
+
+
+---
+
+
+### [ScrollViewReader issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ScrollViewReaderEmptyCellsOnScrollTo/) List returns empty cells when scrolling with scrollTo.
+
+
+A video demonstrating how it behaves on iOS 18.
+
+
+upload video.
 
 
 ---

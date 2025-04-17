@@ -8,8 +8,8 @@ ForEach crash: when using the `Binding` variant of the init, after the animation
 
 
 - Xcode 16.
-- iOS 18.3-18.4beta (current; check on future versions).
-- iPadOS 18.3-18.4beta (current; check on future versions).
+- iOS 18.3-18.4 (current; check on future versions).
+- iPadOS 18.3-18.4 (current; check on future versions).
 - Swift 5/6.
 
 

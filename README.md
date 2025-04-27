@@ -482,7 +482,7 @@ https://github.com/user-attachments/assets/3d0d7986-6b0a-4c0c-9562-773460038d7e
 Video showing how it works on iOS 18.2.
 
 
-upload video
+https://github.com/user-attachments/assets/782c2b5b-8fb9-4651-a883-e286d57bab29
 
 
 ---

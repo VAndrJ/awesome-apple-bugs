@@ -48,6 +48,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [List issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ListEditButtonOnlyWorksSecondTime/): the edit button only works the second time.
 - [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/): `arrowEdge` value is not respected.
+- [Animation stops working](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationIssueInLazyContainers/) in Lazy containers (Stacks, Grids) when navigating to the next screen and returning.
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/) on drag and drop action.
 
 
@@ -112,6 +113,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [Animation glitch](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationGlitchDragAndDrop/) on drag and drop action.
 - [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/): `arrowEdge` value is not respected.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/) is displayed in quotation marks `" "` if a whitespace is specified as the title.
+- [Animation stops working](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationIssueInLazyContainers/) in Lazy containers (Stacks, Grids) when navigating to the next screen and returning.
 
 
 ### iPadOS
@@ -133,6 +135,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [List issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ListEditButtonOnlyWorksSecondTime/): the edit button only works the second time.
 - [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/): `arrowEdge` value is not respected.
 - [Navigation title](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/NavigationTitleQuotationMarksWhitespace/) is displayed in quotation marks `" "` if a whitespace is specified as the title.
+- [Animation stops working](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationIssueInLazyContainers/) in Lazy containers (Stacks, Grids) when navigating to the next screen and returning.
 
 
 ### macOS
@@ -468,6 +471,18 @@ A video demonstrating how it behaves on iOS 17.
 
 
 https://github.com/user-attachments/assets/3d0d7986-6b0a-4c0c-9562-773460038d7e
+
+
+---
+
+
+### [Animation stops working](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AnimationIssueInLazyContainers/) in Lazy containers (Stacks, Grids) when navigating to the next screen and returning.
+
+
+Video showing how it works on iOS 18.2.
+
+
+https://github.com/user-attachments/assets/782c2b5b-8fb9-4651-a883-e286d57bab29
 
 
 ---

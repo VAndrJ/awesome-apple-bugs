@@ -45,6 +45,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/): wrong tab displayed after rotation when using `.page` style.
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/): the same variable is shared between different scenes.
 - [PhaseAnimator crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PhaseAnimatorCrashOnViewClose/): when closing the presented view or popping the pushed view on which it is (or 100% CPU load iOS 17.0).
+- [Lifecycle issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/LifeCycleIssueWhenSwitchingViewsWithNavigationStack/): `onAppear`, `onDisappear`, `task` are called again when the `NavigationStack` with a View is replaced by another View.
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [List issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ListEditButtonOnlyWorksSecondTime/): the edit button only works the second time.
 - [Popover issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PopoverArrowEdgeNotRespected/): `arrowEdge` value is not respected.
@@ -107,6 +108,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/): wrong tab displayed after rotation when using `.page` style.
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/): the same variable is shared between different scenes.
 - [PhaseAnimator crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PhaseAnimatorCrashOnViewClose/): when closing the presented view or popping the pushed view on which it is (or 100% CPU load iOS 17.0).
+- [Lifecycle issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/LifeCycleIssueWhenSwitchingViewsWithNavigationStack/): `onAppear`, `onDisappear`, `task` are called again when the `NavigationStack` with a View is replaced by another View.
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
 - [List issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/ListEditButtonOnlyWorksSecondTime/): the edit button only works the second time.
@@ -129,6 +131,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 - [TabView issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/TabViewIssuePageTabAfterRotation/): wrong tab displayed after rotation when using `.page` style.
 - [@State issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/StateIssueSharedBetweenScenes/): the same variable is shared between different scenes.
 - [PhaseAnimator crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/PhaseAnimatorCrashOnViewClose/): when closing the presented view or popping the pushed view on which it is (or 100% CPU load iOS 17.0).
+- [Lifecycle issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/LifeCycleIssueWhenSwitchingViewsWithNavigationStack/): `onAppear`, `onDisappear`, `task` are called again when the `NavigationStack` with a View is replaced by another View.
 - [SwiftData crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/SwiftDataCrashDefaultTemplate/): deleting the element will result in a crash in the standard template.
 - [Alert issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/AlertIssueButtonsTintAffectedByModifier/): `.default` and `.cancel` buttons are recolored if alert in a `NavigationStack` that has `.tint` applied (or higher up the Views tree).
 - [UIBezierPath issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/UIBezierPathIssueCornerRadius/): `cornerRadius` is incorrect for `roundedRect` when it exceeds ~65.5% of half of `min(width, height)`.
@@ -411,6 +414,18 @@ A video demonstrating how it behaves on iOS 17.2.
 
 
 https://github.com/user-attachments/assets/0a5bdce3-ba23-477b-b75a-b90f1564261d
+
+
+---
+
+
+### [Lifecycle issue](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/LifeCycleIssueWhenSwitchingViewsWithNavigationStack/): `onAppear`, `onDisappear`, `task` are called again when the `NavigationStack` with a View is replaced by another View.
+
+
+A video demonstrating how it behaves on iOS 18.
+
+
+https://github.com/user-attachments/assets/56a19c6e-002f-4c54-984e-bab6a64de7b8
 
 
 ---

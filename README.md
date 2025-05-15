@@ -66,6 +66,7 @@ A list of awesome bugs with SwiftUI, Swift, etc. Includes code examples and poss
 
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashTypedThrowsObservableObject/) occurs when using a typed throws in a closure variable within an `ObservableObject`.
 - [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CrashNotificationCenterClosureSwift6/) in Swift 6 language mode when using the closure-based version of the `UNUserNotificationCenter.requestAuthorization` function.
+- [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/DocumentsAppCrashInSwift6LanguageMode/) in Swift 6 language in default "Document App" template.
 - [Compilation error](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CompilationErrorObservableClassNameMember/) if `Observable` class name is `Member`.
 - [Compilation error](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/CompilationErrorPassingFunctionAsAnArgument/) when passing a function isolated to an actor as an argument.
 
@@ -190,6 +191,18 @@ Images with the result.
 
 ![error](https://raw.githubusercontent.com/VAndrJ/awesome-apple-bugs/master/Bugs/CrashNotificationCenterClosureSwift6/Resources/error.jpeg)
 ![solution](https://raw.githubusercontent.com/VAndrJ/awesome-apple-bugs/master/Bugs/CrashNotificationCenterClosureSwift6/Resources/solution.jpeg)
+
+
+---
+
+
+- [Crash](https://github.com/VAndrJ/awesome-apple-bugs/blob/main/Bugs/DocumentsAppCrashInSwift6LanguageMode/) in Swift 6 language in default "Document App" template.
+
+
+Video demonstrating how it crashes:
+
+
+https://github.com/user-attachments/assets/55448d6e-050e-43f2-a1a3-6acbe268bab4
 
 
 ---
